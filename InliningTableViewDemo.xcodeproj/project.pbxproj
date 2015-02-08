@@ -9,11 +9,17 @@
 /* Begin PBXBuildFile section */
 		7EC14C3D1A86D6BA00F09A70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC14C3C1A86D6BA00F09A70 /* main.m */; };
 		7EC14C401A86D6BA00F09A70 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC14C3F1A86D6BA00F09A70 /* AppDelegate.m */; };
-		7EC14C431A86D6BA00F09A70 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC14C421A86D6BA00F09A70 /* ViewController.m */; };
 		7EC14C461A86D6BA00F09A70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EC14C441A86D6BA00F09A70 /* Main.storyboard */; };
 		7EC14C481A86D6BA00F09A70 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EC14C471A86D6BA00F09A70 /* Images.xcassets */; };
 		7EC14C4B1A86D6BA00F09A70 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EC14C491A86D6BA00F09A70 /* LaunchScreen.xib */; };
 		7EC14C571A86D6BA00F09A70 /* InliningTableViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC14C561A86D6BA00F09A70 /* InliningTableViewDemoTests.m */; };
+		7EC14C691A86D81500F09A70 /* InliningTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC14C601A86D81500F09A70 /* InliningTableViewController.m */; };
+		7EC14C6B1A86D81500F09A70 /* TimeInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC14C621A86D81500F09A70 /* TimeInputViewController.m */; };
+		7EC14C6C1A86D81500F09A70 /* AlarmInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC14C631A86D81500F09A70 /* AlarmInputViewController.m */; };
+		7EC14C6D1A86D81500F09A70 /* ExampleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC14C661A86D81500F09A70 /* ExampleController.m */; };
+		7EC14C6F1A86DAC600F09A70 /* pickerViewOverlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EC14C6E1A86DAC600F09A70 /* pickerViewOverlay.png */; };
+		7EC14C721A86DFBB00F09A70 /* PickerInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC14C711A86DFBB00F09A70 /* PickerInputViewController.m */; };
+		7EC14C741A86E07E00F09A70 /* inlineDisclosure@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EC14C731A86E07E00F09A70 /* inlineDisclosure@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +38,24 @@
 		7EC14C3C1A86D6BA00F09A70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7EC14C3E1A86D6BA00F09A70 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7EC14C3F1A86D6BA00F09A70 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7EC14C411A86D6BA00F09A70 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7EC14C421A86D6BA00F09A70 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7EC14C451A86D6BA00F09A70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7EC14C471A86D6BA00F09A70 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7EC14C4A1A86D6BA00F09A70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		7EC14C501A86D6BA00F09A70 /* InliningTableViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InliningTableViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EC14C551A86D6BA00F09A70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7EC14C561A86D6BA00F09A70 /* InliningTableViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InliningTableViewDemoTests.m; sourceTree = "<group>"; };
+		7EC14C601A86D81500F09A70 /* InliningTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InliningTableViewController.m; sourceTree = "<group>"; };
+		7EC14C621A86D81500F09A70 /* TimeInputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeInputViewController.m; sourceTree = "<group>"; };
+		7EC14C631A86D81500F09A70 /* AlarmInputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmInputViewController.m; sourceTree = "<group>"; };
+		7EC14C641A86D81500F09A70 /* InliningTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InliningTableViewController.h; sourceTree = "<group>"; };
+		7EC14C651A86D81500F09A70 /* ExampleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleController.h; sourceTree = "<group>"; };
+		7EC14C661A86D81500F09A70 /* ExampleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleController.m; sourceTree = "<group>"; };
+		7EC14C671A86D81500F09A70 /* TimeInputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeInputViewController.h; sourceTree = "<group>"; };
+		7EC14C681A86D81500F09A70 /* AlarmInputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmInputViewController.h; sourceTree = "<group>"; };
+		7EC14C6E1A86DAC600F09A70 /* pickerViewOverlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pickerViewOverlay.png; sourceTree = "<group>"; };
+		7EC14C701A86DFBB00F09A70 /* PickerInputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerInputViewController.h; sourceTree = "<group>"; };
+		7EC14C711A86DFBB00F09A70 /* PickerInputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerInputViewController.m; sourceTree = "<group>"; };
+		7EC14C731A86E07E00F09A70 /* inlineDisclosure@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "inlineDisclosure@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +97,20 @@
 		7EC14C391A86D6BA00F09A70 /* InliningTableViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				7EC14C731A86E07E00F09A70 /* inlineDisclosure@2x.png */,
+				7EC14C701A86DFBB00F09A70 /* PickerInputViewController.h */,
+				7EC14C711A86DFBB00F09A70 /* PickerInputViewController.m */,
+				7EC14C6E1A86DAC600F09A70 /* pickerViewOverlay.png */,
+				7EC14C641A86D81500F09A70 /* InliningTableViewController.h */,
+				7EC14C601A86D81500F09A70 /* InliningTableViewController.m */,
+				7EC14C671A86D81500F09A70 /* TimeInputViewController.h */,
+				7EC14C621A86D81500F09A70 /* TimeInputViewController.m */,
+				7EC14C681A86D81500F09A70 /* AlarmInputViewController.h */,
+				7EC14C631A86D81500F09A70 /* AlarmInputViewController.m */,
+				7EC14C651A86D81500F09A70 /* ExampleController.h */,
+				7EC14C661A86D81500F09A70 /* ExampleController.m */,
 				7EC14C3E1A86D6BA00F09A70 /* AppDelegate.h */,
 				7EC14C3F1A86D6BA00F09A70 /* AppDelegate.m */,
-				7EC14C411A86D6BA00F09A70 /* ViewController.h */,
-				7EC14C421A86D6BA00F09A70 /* ViewController.m */,
 				7EC14C441A86D6BA00F09A70 /* Main.storyboard */,
 				7EC14C471A86D6BA00F09A70 /* Images.xcassets */,
 				7EC14C491A86D6BA00F09A70 /* LaunchScreen.xib */,
@@ -200,8 +226,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7EC14C461A86D6BA00F09A70 /* Main.storyboard in Resources */,
+				7EC14C741A86E07E00F09A70 /* inlineDisclosure@2x.png in Resources */,
 				7EC14C4B1A86D6BA00F09A70 /* LaunchScreen.xib in Resources */,
 				7EC14C481A86D6BA00F09A70 /* Images.xcassets in Resources */,
+				7EC14C6F1A86DAC600F09A70 /* pickerViewOverlay.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +247,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EC14C431A86D6BA00F09A70 /* ViewController.m in Sources */,
 				7EC14C401A86D6BA00F09A70 /* AppDelegate.m in Sources */,
+				7EC14C6D1A86D81500F09A70 /* ExampleController.m in Sources */,
+				7EC14C721A86DFBB00F09A70 /* PickerInputViewController.m in Sources */,
+				7EC14C6C1A86D81500F09A70 /* AlarmInputViewController.m in Sources */,
+				7EC14C6B1A86D81500F09A70 /* TimeInputViewController.m in Sources */,
 				7EC14C3D1A86D6BA00F09A70 /* main.m in Sources */,
+				7EC14C691A86D81500F09A70 /* InliningTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,6 +378,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = InliningTableViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -356,6 +389,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = InliningTableViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
