@@ -97,10 +97,9 @@
 		7EC14C391A86D6BA00F09A70 /* InliningTableViewDemo */ = {
 			isa = PBXGroup;
 			children = (
-				7EC14C731A86E07E00F09A70 /* inlineDisclosure@2x.png */,
+				7EC14C751A89108200F09A70 /* Images */,
 				7EC14C701A86DFBB00F09A70 /* PickerInputViewController.h */,
 				7EC14C711A86DFBB00F09A70 /* PickerInputViewController.m */,
-				7EC14C6E1A86DAC600F09A70 /* pickerViewOverlay.png */,
 				7EC14C641A86D81500F09A70 /* InliningTableViewController.h */,
 				7EC14C601A86D81500F09A70 /* InliningTableViewController.m */,
 				7EC14C671A86D81500F09A70 /* TimeInputViewController.h */,
@@ -143,6 +142,15 @@
 				7EC14C551A86D6BA00F09A70 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7EC14C751A89108200F09A70 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				7EC14C6E1A86DAC600F09A70 /* pickerViewOverlay.png */,
+				7EC14C731A86E07E00F09A70 /* inlineDisclosure@2x.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -1,9 +1,9 @@
 //
 //  InliningTableViewController.h
-//  WhereDoesTheTimeGo
 //
 //  Created by David Hakim on 8/12/13.
-//  Copyright (c) 2013 David Hakim. All rights reserved.
+//  Copyright (c) 2013 David Hakim.
+//  License: http://www.opensource.org/licenses/mit-license.html
 //
 
 #import <UIKit/UIKit.h>

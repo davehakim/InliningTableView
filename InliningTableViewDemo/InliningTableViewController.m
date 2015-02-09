@@ -1,9 +1,9 @@
 //
 //  InliningTableViewController.m
-//  WhereDoesTheTimeGo
 //
 //  Created by David Hakim on 8/12/13.
-//  Copyright (c) 2013 David Hakim. All rights reserved.
+//  Copyright (c) 2013 David Hakim.
+//  License: http://www.opensource.org/licenses/mit-license.html
 //
 
 #import "InliningTableViewController.h"
@@ -213,10 +213,6 @@
 
 - (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath {
 	if (self.inputViewIndexPath) {
-//		NSLog(@"%@ %@",self.inputViewIndexPath, indexPath);
-//		NSLog(@"number of rows %d",[self.tableView numberOfRowsInSection:0]);
-		// This is causing a repeatable bug on iOS 7 devices, clicking on the due field immediately on the add task screen immediately after loading
-		// UITableViewCell* ivcell = [self.tableView cellForRowAtIndexPath:self.inputViewIndexPath];
 		UITableViewCell* ivcell = self.inputViewCell;
 		[ivcell.superview sendSubviewToBack:ivcell];
 	}
@@ -227,13 +223,6 @@
 		cell.preservesSuperviewLayoutMargins = NO;
 	}
 }
-
-/* - (void)tableView:(UITableView *)tableView didEndDisplayingCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath*)indexPath {
-	if ( indexPath.row != self.inputViewIndexPath.row) {
-		[cell.superview bringSubviewToFront:cell];
-	}
-}*/
-
 
 //
 // So the way the game is played is we watch for frame changes in the inlined view and, when they occur, we call begin

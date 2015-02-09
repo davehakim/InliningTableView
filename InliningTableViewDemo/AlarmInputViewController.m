@@ -29,6 +29,11 @@
 - (void) viewDidLoad {
 	[super viewDidLoad];
 	
+	// So I'm not sure when this started... maybe with the introduction of autolayout. But if you embed a view
+	// from IB in a table cell and subviews of that view are located relative to the 'top layout guide', when the cell scrolls
+	// off the top of the screen and then back down those subviews will be at the BOTTOM of the cell. I expect this is
+	// just a tableview bug. Locking the subview to the top of their containing view fixes.
+	
 	[self.view addConstraint:[NSLayoutConstraint constraintWithItem:alarmEnabledControl attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeTopMargin multiplier:1 constant:10]];
 	
 	[self _updateUI];
